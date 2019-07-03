@@ -2,6 +2,11 @@
 
 This file is used to list changes made in each version of the openvpn cookbook.
 
+## unreleased
+
+- [Periodically refresh the CRL](https://github.com/sous-chefs/openvpn/pull/129)
+  - Sign it with the correct certificate & algorithm. Use CRL v2.
+
 ## v3.0.0
 
 - [Chef-13 compatibility](https://github.com/sous-chefs/openvpn/issues/102)
